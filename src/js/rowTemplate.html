@@ -1,0 +1,13 @@
+<section class="row">
+  <ul class="games">
+<% data.rows.forEach(function r(eachRow){ %>
+  <li>
+    <div class="meta">
+      Game <%= eachRow.game %> |
+      <%= eachRow.location %> |
+      <%= eachRow.opponent %>
+    </div>
+  </li>
+<% }); %>
+  </ul>
+</section>

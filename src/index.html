@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+      <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <main class="content">
+      <div class="outer">
+
+        <h1 class="headline">Seahawks pick 'em</h1>
+        <!-- <div class="year">2020 Edition</div> -->
+        <h2 class="subhead">How will the Hawks do this season?</h2>
+        <p class="chatter">
+          The Seahawks surprised many on their way back to the playoffs lasts season despite disbanding the Legion of Boom. Well, another season and another set of stars departed. Can Russell Wilson and Bobby Wagner lead Seattle back to the postseason? Make your predictions below and compare them with our experts.
+        </p>
+
+        <div class="container">
+          <div class="schedule">
+            <ul class="games">
+            <% json.schedule.forEach(function(r){ %>
+              <li data-game="<%= r.game %>" class="row">
+                <div class="meta">
+                  <div class="info">
+                  <strong> WEEK <%= r.game %> </strong>  <br> <%= r.date %> <br><%= r.station %> <br>
+                  <% if (r.result == "W" || r.result == "L") { %>
+                  <div class="score"> <%= r.result == "W" ? "Seahawks win" : r.result == "L" ? "Seahawks lose" : ""  %> <%= r.score %> </div>
+                  <%  } %>
+                  </div>
+                   <br>
+                   <div class="images">
+
+                  <% if (r.location == "home") { %>
+                  <div class="home">
+                    <img class="logo team <%= r.result == "W" ? "won" : "" %> <%= r.result == "L" ? "faded" : "" %> " src="./assets/seahawks.png" data-game="<%= r.game %>" data-prediction="W"><div class="team"> Seahawks</div>
+                  </div>
+                  <div class="location-container">
+                    <div class="location"><%= r.location == "home" ? "vs." : "@" %></div>
+                  </div>
+                  <div class="away">
+                    <img class="logo team <%= r.result == "L" ? "won" : "" %> <%= r.result == "W" ? "faded" : "" %>" src="./assets/<%= json.logos[r.opponent].logo %>" data-game="<%= r.game %>" data-prediction="L"> <div class="team"><%= r.opponent %></div>
+                  </div>
+                <%  } else { %>
+                  <div class="home">
+                     <img class="logo team <%= r.result == "W" ? "won" : "" %> <%= r.result == "L" ? "faded" : "" %>" src="./assets/seahawks.png" data-game="<%= r.game %>" data-prediction="W"> <div class="team"> Seahawks</div>
+                  </div>
+                  <div class="location-container">
+                    <div class="location"><%= r.location == "home" ? "VS." : "@" %></div>
+                  </div>
+                  <div class="away">
+                    <img class="logo team <%= r.result == "L" ? "won" : "" %> <%= r.result == "W" ? "faded" : "" %>" src="./assets/<%= json.logos[r.opponent].logo %>" data-game="<%= r.game %>" data-prediction="L"><div class="team"><%= r.opponent %></div>
+                  </div>
+                <%  } %>
+                    </div>
+                </div>
+                <div class="predictions">
+                  <div class="decision">
+                    Your pick:
+                    <img class="user-pick">
+                    <button class="clear-pick" data-game="<%= r.game %>">&times; clear</button>
+                  </div>
+                  <div class="experts">
+                    <% for (var k in json.experts) { %>
+                      <div class="experts-box">
+                        <%= json.experts[k].name %>
+                        <img class="logo prediction" src="./assets/<%= r[k] == "W" ? "seahawks.png" : json.logos[r.opponent].logo %>">
+                      </div>
+                    <% } %>
+                  </div>
+                </div>
+              </li>
+            <% }); %>
+              </ul>
+          </div>
+          <div class="tooltip">
+            <h1> Seahawks 2020 season </h1>
+            <div class="content">
+              <div class="summary"> Your record prediction:<div class="record"> 0-0 </div> </div>
+              <div class="show-experts button">See staff record predictions</div>
+              <div class="staff records">
+                  <% for (var k in json.experts) { %>
+                    <div class="record prediction">
+                      <%= json.experts[k].name %>: <%= json.experts[k].wins %> - <%= json.experts[k].loss %>
+                    </div>
+                  <% }; %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Staff predictions</h2>
+        <div class="expert-opinions">
+          <% for (var n in json.experts) { %>
+          <% var expert = json.experts[n] %>
+          <div class="expert">
+            <div class="wrapper">
+              <h3><%= expert.name %></h3>
+              <h4><%= expert.title %></h4>
+              <div class="record">
+                Season prediction: <b><%= expert.wins %> - <%= expert.loss %></b>
+              </div>
+              <p class="prediction">
+                <%= expert.comment %>
+            </div>
+          </div>
+          <% } %>
+        </div>
+
+      </div>
+    </main>
+
+    <%= t.include("partials/_navBottom.html") %>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

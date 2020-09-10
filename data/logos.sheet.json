@@ -1,0 +1,54 @@
+{
+  "Atlanta": {
+    "key": "Atlanta",
+    "logo": "atlanta.jpg"
+  },
+  "New England": {
+    "key": "New England",
+    "logo": "newengland.jpg"
+  },
+  "Dallas": {
+    "key": "Dallas",
+    "logo": "dallas.jpg"
+  },
+  "Miami": {
+    "key": "Miami",
+    "logo": "miami.jpg"
+  },
+  "Minnesota": {
+    "key": "Minnesota",
+    "logo": "minnesota.jpg"
+  },
+  "Arizona": {
+    "key": "Arizona",
+    "logo": "arizona.jpg"
+  },
+  "San Francisco": {
+    "key": "San Francisco",
+    "logo": "sanfrancisco.jpg"
+  },
+  "Buffalo": {
+    "key": "Buffalo",
+    "logo": "buffalo.jpg"
+  },
+  "Washington": {
+    "key": "Washington",
+    "logo": "washington.jpg"
+  },
+  "NY Jets": {
+    "key": "NY Jets",
+    "logo": "newyorkjets.jpg"
+  },
+  "Philadelphia": {
+    "key": "Philadelphia",
+    "logo": "philadelphia.jpg"
+  },
+  "NY Giants": {
+    "key": "NY Giants",
+    "logo": "newyorkgiants.jpg"
+  },
+  "LA Rams": {
+    "key": "LA Rams",
+    "logo": "larams.jpg"
+  }
+}

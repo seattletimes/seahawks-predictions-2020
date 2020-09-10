@@ -1,0 +1,90 @@
+{
+  "bob": {
+    "key": "bob",
+    "name": "Bob Condotta",
+    "comment": "Seattle went 11-5 last season but had to win 10 games by one possession to do so. This feels like a more solid team than a year ago, even if the defensive line remains something of a question, though the record may not necessarily be better, especially playing in what looks like it could be the best division in the NFL. Seattle should get off to a good start and finish fast to stay in the NFC West race all season and contend for the all-important top seed in the conference playoffs.",
+    "wins": 11,
+    "loss": 5,
+    "title": "Seahawks beat writer"
+  },
+  "larry": {
+    "key": "larry",
+    "name": "Larry Stone",
+    "comment": "The Seahawks have all the ingredients for a breakout season, but with a full array of asterisks, warnings, provisos and caution flags. I’m going to err on the side of optimism and give them one more win than last season, based on the acquisition of Jamal Adams and a few more ingredients added to Russell Wilson’s buffet table. But the defensive line in general, and the pass rush specifically, remains a huge concern, as does the revamped offensive line. If the Seahawks can figure out those issues, this will be a golden year. If not, then last season’s aberrational success in close games – 11 of their 12 wins (including playoffs) were by eight points or fewer -- could come back and bite them.",
+    "wins": 12,
+    "loss": 4,
+    "title": "Times sports columnist"
+  },
+  "adam": {
+    "key": "adam",
+    "name": "Adam Jude",
+    "comment": "The Seahawks had one of the NFL's best offenses in 2019 — ranking fifth in DVOA — and there are ample reasons to think it could be even better this season. The No. 1 reason is No. 3 — Russell Wilson. At age 31, he is in the prime of his career, and he has two elite receivers to throw to in Tyler Lockett and DK Metcalf, with Metcalf expected to take a significant leap in his second season. The Seahawks might have the best tight-end group in the league, led by veteran free-agent signing Greg Olsen and emerging star Will Dissly. And Chris Carson, coming off back-to-back 1,000-yard seasons, enters his contract year out to prove he belongs among the NFL's top tier of running backs. There is uncertainty about the rebuilt offensive line, but that's nothing new for Wilson and Co. Expect this offense to lead the Seahawks back into the playoffs, and maybe even to the top of the NFC West.",
+    "wins": 11,
+    "loss": 5,
+    "title": "Times sports writer"
+  },
+  "matt": {
+    "key": "matt",
+    "name": "Matt Calkins",
+    "comment": "It's difficult to gauge whether the Seahawks are better now than they were last year, when they won 11 games. Their less-than-stellar defense added All-Pro safety Jamal Adams, but lost three-time Pro Bowl defensive end Jadeveon Clowney. What they do have, however, is an ostensibly soft non-conference schedule and one of the three best quarterbacks in the league in Russell Wilson. Seattle won a bevy of close games last year, but that had as much to do with their quarterback as it did the football gods. With Wilson back and his top weapons healthy, look for Seattle to again go 11-5. ",
+    "wins": 11,
+    "loss": 5,
+    "title": "Times sports columnist"
+  },
+  "ryan": {
+    "key": "ryan",
+    "name": "Ryan Divish",
+    "comment": "While Seahawks fans have complained and will complain about their quarterback not getting to cook enough early in games (the phrase Let Russ Cook is just another reason to hate Twitter), opposing quarterbacks will likely be sitting in the pocket with enough time to cook a seven-course meal and then eat it. The Seahawks couldn't put pressure on the quarterback last season, and it was a problem. And nothing we've seen says they'll be any better at it this season. Even if they had somehow convinced to Jadeveon Clowney to come back, it still wouldn't be that productive of a unit. However, when you have Russell \"The Chef\" Wilson whipping up comebacks and touchdown passes to an improved corps of skill players, you will win more games than you lose. And an impossibly friendly and easy non-division schedule will help them win 10 games while life in the NFC West -- the strongest division in football -- will be difficult. They'll make the playoffs, but winning the division? Hmm. ",
+    "wins": 10,
+    "loss": 6,
+    "title": "Times sports writer"
+  },
+  "percy": {
+    "key": "percy",
+    "name": "Percy Allen",
+    "comment": "It certainly won’t be easy, but there’s a good chance Seattle starts 4-0 before a particularly difficult seven-game stretch against four 2019 playoff teams, including four road games. I’m predicting a five-game losing streak here, which would be the longest in the Pete Carroll era. I also think the Hawks bounce back nicely with seven straight wins, including a pivotal season-ending victory at San Francisco to finish 11-5 for the second straight season. ",
+    "wins": 11,
+    "loss": 5,
+    "title": "Times sports writer"
+  },
+  "mike": {
+    "key": "mike",
+    "name": "Mike Vorel",
+    "comment": "On paper, this looks like the most complete Seahawks team in several years. Russell Wilson is an MVP-caliber quarterback with a stable of talented running backs as well as a fleet of high-end wide receivers and tight ends. Led by Bobby Wagner and Jamal Adams, they should also offer one of the premier linebacking corps and secondaries in the NFL. But it’ll likely be line play on both sides of the ball that dictates whether this Seahawks squad is a wild card team or a Super Bowl frontrunner. When it comes to the inexperienced O-line and potentially tepid pass-rush, I remain somewhat unconvinced. ",
+    "wins": 11,
+    "loss": 5,
+    "title": "Times sports writer"
+  },
+  "paul": {
+    "key": "paul",
+    "name": "Paul Barrett",
+    "comment": "The Seahawks’ offense is loaded with skill players and continues to be among the NFL’s best. Expect quarterback Russell Wilson to have an MVP-level season throwing to one of the better receiving tandems in team history in Tyler Lockett and DK Metcalf, and to maybe league’s the best tight-end group. Bruising running back Chris Carson reportedly is healthy and ready to lead a strong backfield. I think the defense will be better with the additions of Jamal Adams, Quinton Dunbar and Bruce Irvin, although the line remains a question mark. Letting Jadeveon Clowney go obviously didn’t help. The NFC West is tough, but the Seahawks have an otherwise friendly schedule (though it will be interesting to see how playing games without fans might affect their home-field advantage). I’m picking them to go 12-4 and edge the 49ers for the division title. ",
+    "wins": 12,
+    "loss": 4,
+    "title": "Sports Editor"
+  },
+  "scott": {
+    "key": "scott",
+    "name": "Alex Iniguez",
+    "comment": "The Seahawks are clearly in win-now mode, and their offense should be cookin’ this year. That’s not to say they’ll definitely Let Russ Cook, but contract-year Chris Carson, the 1-2 punch of DK Metcalf and Tyler Lockett (plus Josh Gordon at some point) and an insane tight-end group should hang plenty of points on the board. On defense, yes, they lost out on Jadeveon Clowney, but that’s the only major downgrade. Jamal Adams, Quinton Dunbar and Quandre Diggs headline a much-improved secondary and the linebackers remain steady. On paper, this team should fare better than last season. My only question is what to call the defense. Given our strange pandemic times, may I suggest the Legion of Zoom?",
+    "wins": 12,
+    "loss": 4,
+    "title": "Assistant Sports Editor"
+  },
+  "sean": {
+    "key": "sean",
+    "name": "Sean Quinton",
+    "comment": "The Seahawks enter 2020 with what appears to be their most explosive offense in years. But, without a formidable pass rush on defense, they'll need every last point Russell Wilson can conjure up to win games. Russ will cook in 2020 and the Hawks' offense will feast, but the defensive holes won't be enough to conquer the NFC West. Seattle will again be the team no one wants to face on Wild Card weekend.",
+    "wins": 10,
+    "loss": 6,
+    "title": "Assistant Sports Editor"
+  },
+  "chris": {
+    "key": "chris",
+    "name": "Chris Cole",
+    "comment": "Through trades for Jamal Adams and Quinton Dunbar, the Seahawks showed a strong desire to improve their secondary this offseason — and seemed to forget about fixing their lackluster pass rush. But it shouldn't matter (in the regular season, at least). This feels like the year the Seahawks finally open things up on offense. Tyler Lockett and DK Metcalf give Russell Wilson two legitimate stars at receiver, and it's not hard to imagine Metcalf receiving top billing in that duo by season's end. The NFC West is set to be the NFL's most competitive (and fun) division, and a few of Seattle's seemingly easy wins will go down to the wire for no real reason other than to stress out fans. But outside of a few early East Coast games, the schedule doesn't appear daunting enough to keep the Seahawks from fighting for the division crown or out of the playoffs. Oh, and Mr. Unlimited will finally receive an MVP vote.",
+    "wins": 11,
+    "loss": 5,
+    "title": "Times sports producer"
+  }
+}
