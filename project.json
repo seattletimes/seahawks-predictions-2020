@@ -2,21 +2,21 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "able-iteration"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2020/seattle-seahawks-pick-em"
     }
   },
-  "title": "",
-  "description": "",
-  "author": "",
-  "url": "",
-  "post_id": 0,
-  "image": "assets/social.jpg",
+  "title": "Seahawks pick 'em: How will the Hawks do this season?",
+  "description": "Make your predictions for the Seahawks' 2020 season and compare with our experts.",
+  "author": "Sean Quinton",
+  "url": "https://projects.seattletimes.com/2020/seattle-seahawks-pick-em/",
+  "post_id": 13114900,
+  "image": "assets/seahawkssocial.jpg",
   "sheets": ["1Uvjauhi_rmxW3evtzrz24dKcV-Gv82gmHfaqLzMg6jk"],
   "docs": [],
   "embedded": true,
-  "production": false
+  "production": true
 }

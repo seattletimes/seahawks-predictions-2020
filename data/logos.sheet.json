@@ -1,54 +1,54 @@
 {
   "Atlanta": {
     "key": "Atlanta",
-    "logo": "atlanta.jpg"
+    "logo": "atlanta.png"
   },
   "New England": {
     "key": "New England",
-    "logo": "newengland.jpg"
+    "logo": "newengland.png"
   },
   "Dallas": {
     "key": "Dallas",
-    "logo": "dallas.jpg"
+    "logo": "dallas.png"
   },
   "Miami": {
     "key": "Miami",
-    "logo": "miami.jpg"
+    "logo": "miami.png"
   },
   "Minnesota": {
     "key": "Minnesota",
-    "logo": "minnesota.jpg"
+    "logo": "minnesota.png"
   },
   "Arizona": {
     "key": "Arizona",
-    "logo": "arizona.jpg"
+    "logo": "arizona.png"
   },
   "San Francisco": {
     "key": "San Francisco",
-    "logo": "sanfrancisco.jpg"
+    "logo": "sanfrancisco.png"
   },
   "Buffalo": {
     "key": "Buffalo",
-    "logo": "buffalo.jpg"
+    "logo": "buffalo.png"
   },
   "Washington": {
     "key": "Washington",
-    "logo": "washington.jpg"
+    "logo": "washington.png"
   },
   "NY Jets": {
     "key": "NY Jets",
-    "logo": "newyorkjets.jpg"
+    "logo": "newyorkjets.png"
   },
   "Philadelphia": {
     "key": "Philadelphia",
-    "logo": "philadelphia.jpg"
+    "logo": "philadelphia.png"
   },
   "NY Giants": {
     "key": "NY Giants",
-    "logo": "newyorkgiants.jpg"
+    "logo": "newyorkgiants.png"
   },
   "LA Rams": {
     "key": "LA Rams",
-    "logo": "larams.jpg"
+    "logo": "larams.png"
   }
 }
