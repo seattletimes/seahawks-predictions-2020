@@ -17,6 +17,6 @@
   "image": "assets/seahawkssocial.jpg",
   "sheets": ["1Uvjauhi_rmxW3evtzrz24dKcV-Gv82gmHfaqLzMg6jk"],
   "docs": [],
-  "embedded": true,
+  "embedded": false,
   "production": true
 }
